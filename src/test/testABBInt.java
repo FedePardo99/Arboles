@@ -11,8 +11,7 @@ import org.junit.Test;
 import arbolesProgra2.ABBInt;
 
 public class testABBInt {
-	public static ABBInt arbol;
-	public static ABBInt arbolDePrueba;
+	public static ABBInt arbol,arbolDePrueba;
 	
 	@Before
 	public void inicializarArboles () {
@@ -31,6 +30,8 @@ public class testABBInt {
 		arbolDePrueba.agregar(5);
 		arbolDePrueba.agregar(6);
 	}
+	
+	
 
 	@Test
 	public void maximo() {
