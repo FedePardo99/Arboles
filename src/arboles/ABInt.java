@@ -95,8 +95,6 @@ public class ABInt {
 		return altura(raiz);
 	}
 
-	
-
 	public boolean estaBalanceado() {
 		return estaBalanceado(raiz);
 	}
@@ -270,8 +268,9 @@ public class ABInt {
 	}
 
 	/*
-	 * ------------------------------METODOS PRIVADOS DE LA CLASE
-	 * ARBOL------------------------------------------------
+	 * 
+	 * ------------------------------METODOS PRIVADOS DE LA CLASE ARBOL ------------------------------------------------
+	 
 	 */
 	private int alturaRamaConMasRepeticiones(NodoInt nodo,int elem) {
 		if(nodo == null)
