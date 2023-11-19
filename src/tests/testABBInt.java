@@ -1,14 +1,15 @@
-package test;
+package tests;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import arbolesProgra2.ABInt;
+
 import org.junit.Before;
 import org.junit.Test;
 
-import arbolesProgra2.ABBInt;
+import arboles.ABBInt;
+import arboles.ABInt;
 
 public class testABBInt {
 	public static ABBInt arbol,arbolDePrueba;
